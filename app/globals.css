@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply box-border m-0 p-0;
+  }
+  .page {
+    @apply h-screen w-screen;
+  }
+}
+
+.fp-watermark {
+  display: none;
+}
+
+.fp-overflow {
+  overflow-x: hidden;
+}
+
+#fp-nav a span {
+  background: #c39854 !important;
+}
